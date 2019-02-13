@@ -1,5 +1,5 @@
 var client = Asana.Client.create({
-  clientId: YOUR_CLIENT_ID_HERE
+  clientId: 618149783325441
 });
 client.useOauth();
 client.authorize().then(function() {

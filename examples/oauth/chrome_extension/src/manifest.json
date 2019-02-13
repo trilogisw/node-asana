@@ -16,7 +16,9 @@
   "permissions": [
     "tabs",
     "webRequest",
-    "webRequestBlocking"
+    "webRequestBlocking",
+    "http://www.lpb.com/",
+    "*://*.asana.com/*"
   ],
   "content_security_policy": "script-src 'self' ; object-src 'self'"
 }
